@@ -39,6 +39,7 @@ func main() {
 				temp := bankBalance
 				temp += income.Amount
 				bankBalance = temp
+				//fmt.Printf("On week %d, you earned $%d.00 from %s\n)", week, income.Amount, income.Source)
 				balance.Unlock()
 				// just comment so that tests pass, still no clue what is the issue when this is not commented (tests get stuck)
 				// fmt.Printf("On week %d, you earned $%d.00 from %s\n)", week, income.Amount, income.Source)
