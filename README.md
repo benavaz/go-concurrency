@@ -1,3 +1,3 @@
 # go-concurrency
 
-This repo contains some concurrency examples in go
+My space to learn and practice concurrency in go
